@@ -1,0 +1,24 @@
+.Menu a {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.Menu a:hover {
+    color: #ccc;
+}
+
+.Menu a.active {
+    color: #c8a815;
+    font-weight: bold;
+}
+
+nav {
+    background: #4a90e2;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}

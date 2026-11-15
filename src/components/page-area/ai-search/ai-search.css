@@ -1,0 +1,51 @@
+.day-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.day-card h3 {
+    color: #1a1a1a;        /* the Day 1/2/3 headers */
+}
+
+.day-card p {
+    color: #333;           /* the activity lines */
+}
+
+.AiSearch form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.AiSearch form label {
+    font-weight: bold;
+}
+
+.AiSearch form input,
+.AiSearch form select {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+
+.AiSearch form button {
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+    background: #008080;
+    color: white;
+    cursor: pointer;
+}
+
+.AiSearch form button:hover {
+    background: #006666;
+}
